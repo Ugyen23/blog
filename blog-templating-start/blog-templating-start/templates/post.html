@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post2.title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+<div class="title"><h1><center>Blog about {{ post2.title }}</center></h1></div>
+<div class="wrapper">
+    <div class="top">
+        <img src="../static/images/bg2.jpg">
+    </div>
+    <div class="content">
+        <div class="card">
+            <h1> {{ post2.title }}</h1>
+            <h2> {{ post2.subtitle }}</h2>
+            <p> {{ post2.body }}</p>
+        </div>
+        <a href="/" class="hello btn btn-2">Back</a>
+    </div>
+</div>
+</body>
+<footer>
+    <p>Made with ♥️ in London.</p>
+</footer>
+</html>
